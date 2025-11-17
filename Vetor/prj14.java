@@ -13,8 +13,8 @@ class Main {
         a= new int [TAM];
         b= new int [TAM];
 
-        System.out.print("Escreva A");
-        a[i]=ler.nextInt();
+        System.out.println("Digite o "+(i+1)+"° valor do vetor A");
+            a[i]=ler.nextInt();
 
         for(i=0;i<TAM;i++){
             if(a[i]%2==0){
@@ -25,6 +25,11 @@ class Main {
         b[i]=0;
         }
         }
-        //apresentar B
+
+        System.out.print("Vetor B = [");
+          for(i=0;i<TAM;i++){
+              System.out.print(b[i]+ ",");
+          }
+        System.out.print("]");
 }
 }
