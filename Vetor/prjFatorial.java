@@ -14,7 +14,8 @@ class Main {
         fatorial=1;
 
         for(i=0;i<TAM;i++){
-            a[i]=ler.nextInt();
+              System.out.println("Digite o"+(i+1)+"valor de A");
+            a[i]= ler.nextInt();
             
         }
 
