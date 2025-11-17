@@ -13,10 +13,11 @@ class Main {
         j=1;
 
         for(i=0; i<TAM; i++){
-            a[i]=ler.nextInt();
-
+              System.out.println("Digite o"+(i+1)+"valor de A");
+            a[i]= ler.nextInt();
             
     }
+        
         for(j=1; j<=10; i++){
             System.out.println(a[i]+" x "+j+" = "+a[i]*j);
 }
