@@ -19,8 +19,12 @@ class Main {
             
         }
         
-        for(i=0;i<TAM;i++){
-        System.out.println(a[i]);
+         System.out.print("Vetor A = [");
+          for(i=0;i<TAM;i++){
+              System.out.print(a[i]+ ",");
+          }
+        System.out.print("]");
+}
         }
-}
-}
+
+
