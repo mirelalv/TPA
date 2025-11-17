@@ -21,12 +21,18 @@ class Main {
 
 
             
-        for(j=0;j<TAM;i++){
+        for(j=0;j<TAM;j++){
             if(a[i]==b[i]){
                 c[f] = a[i];
 
                 f=f+1;
             }
     }
+         System.out.print("Interseção A e B = [");
+          for(i=0;i<TAM;i++){
+              System.out.print(c[f]+ ",");
+          }
+        System.out.print("]");
 }
 }
+
