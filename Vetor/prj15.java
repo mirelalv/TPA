@@ -33,6 +33,12 @@ class Main {
                 c[i]=-1;
             }
             }
-        //apresentar C
+
+         System.out.print("Vetor C = [");
+          for(i=0;i<TAM;i++){
+              System.out.print(c[i]+ ",");
+          }
+        System.out.print("]");
 }
 }
+
