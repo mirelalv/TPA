@@ -29,6 +29,13 @@ class Main {
                 j=j+1;
                     }
         }
-    }
-    }
+     System.out.print("Vetor B = [");
+          for(i=0;i<TAM;i++){
+              System.out.print(b[j]+ ",");
+          }
+        System.out.print("]");
 }
+
+    }
+    }
+
