@@ -13,11 +13,12 @@ class Main {
         a= new int [TAM];
         b= new int [TAM];
         c= new int [TAM];
-        System.out.print("Digite o vetor A");
-        a[i]=ler.nextInt();
 
-        System.out.print("Digite o vetor B");
-        b[i]=ler.nextInt();
+        System.out.println("Digite o "+(i+1)+"° valor do vetor A");
+            a[i]=ler.nextInt();
+
+        System.out.println("Digite o "+(i+1)+"° valor do vetor B");
+            b[i]=ler.nextInt();
 
         for(i=0;i<TAM;i++){
             if(a[i]==b[i]){
