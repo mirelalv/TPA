@@ -15,9 +15,11 @@ class Main {
         c= new int [TAM];
         f=0;
 
+          System.out.println("Digite o"+(i+1)+"valor de A");
+            a[i]= ler.nextInt();
 
-        a[i]=ler.nextInt();
-        b[i]=ler.nextInt();
+          System.out.println("Digite o"+(i+1)+"valor de B");
+            b[i]= ler.nextInt();
 
 
             
