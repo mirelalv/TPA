@@ -12,8 +12,12 @@ class Main {
         int a[], i=0, j;
         a= new int [TAM];
 
-        System.out.println("Digite o vetor A");
-          a[i]=ler.nextInt();
+        for(i=0;i<TAM;i++){
+              System.out.println("Digite o"+(i+1)+"valor de A");
+            a[i]= ler.nextInt();
+            
+        }
+        
         System.out.println("Os divisores de "+a[i]+":");
        
         for(j=(a[i]-1);j<TAM;j--){
